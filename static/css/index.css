@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://fonts.googleapis.com/css?family=Comic+Neue);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: inherit;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #382653 0, #6681c5);
+}
+
+button,
+input,
+a {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

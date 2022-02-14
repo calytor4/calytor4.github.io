@@ -1,0 +1,57 @@
+.app-layout {
+  @apply overflow-hidden;
+}
+
+.container {
+  @apply relative flex items-center justify-between max-w-xs w-full mx-auto;
+}
+
+.transition-effect {
+  @apply transition-all ease-in-out duration-300;
+}
+
+.web3modal-modal-lightbox {
+  z-index: 9999 !important;
+}
+
+@media (min-width: 400px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 940px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1280px;
+  }
+}

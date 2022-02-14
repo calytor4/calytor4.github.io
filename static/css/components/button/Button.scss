@@ -1,0 +1,27 @@
+.btn {
+  @apply rounded-lg outline-none border-none cursor-pointer uppercase leading-none font-bold;
+  padding: 18px 26px;
+  transition: all 0.5s ease;
+  box-shadow: #ba96fae6 0px 0px 14px;
+  @media (max-width: 767px) {
+    padding: 12px 36px;
+  }
+
+  &:hover {
+    box-shadow: #ba96fae6 0px 0px 24px;
+  }
+}
+
+.btn-primary {
+  background-image: linear-gradient(
+    160.85deg,
+    #bda0dae6 18.73%,
+    #8a1fc7f7 97.99%
+  );
+  color: #ffffff;
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #000000;
+}

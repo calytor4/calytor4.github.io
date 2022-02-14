@@ -1,0 +1,74 @@
+.banner-section {
+  .content {
+    // background-color: rgba(0, 0, 0, 0.46);
+    padding-top: 30px;
+    padding-bottom: 144px;
+    // height: 100%;
+    min-height: 960px;
+    background: url('/assets/images/banner.jpg') no-repeat;
+    background-position-y: bottom;
+    background-position-x: 50%;
+    background-size: cover;
+    overflow: hidden;
+
+    .mask {
+      @apply sm:container mx-auto px-6;
+
+      @media (min-width: 768px) {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+
+      @media (min-width: 1280px) {
+        max-width: 80rem;
+      }
+    }
+
+    .banner {
+      @apply mx-auto pt-60 text-center;
+      max-width: 50rem;
+
+      p {
+        @apply text-sm md:text-base lg:text-xl xl:text-2xl font-bold mt-7;
+        font-family: 'Comic Neue';
+        color: #c9d1ff;
+      }
+
+      .btn-actions {
+        margin-top: 4.5rem;
+        @apply flex justify-center gap-7;
+
+        @media (max-width: 576px) {
+          @apply flex-col items-center;
+        }
+      }
+    }
+  }
+}
+
+.utility-section,
+.roadmap-section,
+.team-section,
+.faq-section {
+  @apply py-10 sm:py-14 md:py-12 lg:py-16 xl:py-20 relative;
+
+  h2 {
+    font-family: 'Comic Neue';
+    text-shadow: 0px 2px #2e2731;
+  }
+}
+
+.utility-section,
+.roadmap-section {
+  h5 {
+    font-family: 'Comic Neue';
+    text-shadow: 0px 2px #2e2731;
+    font-weight: 900;
+  }
+}
+
+.team-section {
+}
+
+.faq-section {
+}
